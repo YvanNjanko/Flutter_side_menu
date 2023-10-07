@@ -19,6 +19,24 @@ class NavBar extends StatelessWidget {
                 color: Colors.green,
                 image: DecorationImage(
                     image: AssetImage('images/1.jpeg'), fit: BoxFit.cover)),
+          ),
+          ListTile(
+            leading: Icon(Icons.file_upload),
+            title: Text('Upload shot'),
+            onTap: () => print('Upload tapped'),
+          ),
+           ListTile(
+            leading: Icon(Icons.share),
+            title: Text('Share'),
+            onTap: () => print('Share tapped'),
+          ), ListTile(
+            leading: Icon(Icons.notifications),
+            title: Text('Notifications'),
+            onTap: () => print('Notifications tapped'),
+          ), ListTile(
+            leading: Icon(Icons.settings),
+            title: Text('Settings'),
+            onTap: () => print('Settings tapped'),
           )
         ],
       ),
