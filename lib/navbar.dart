@@ -21,21 +21,21 @@ class NavBar extends StatelessWidget {
                     image: AssetImage('images/1.jpeg'), fit: BoxFit.cover)),
           ),
           ListTile(
-            leading: Icon(Icons.file_upload),
-            title: Text('Upload shot'),
+            leading: const Icon(Icons.file_upload),
+            title: const Text('Upload shot'),
             onTap: () => print('Upload tapped'),
           ),
            ListTile(
-            leading: Icon(Icons.share),
-            title: Text('Share'),
+            leading: const Icon(Icons.share),
+            title: const Text('Share'),
             onTap: () => print('Share tapped'),
           ), ListTile(
-            leading: Icon(Icons.notifications),
-            title: Text('Notifications'),
+            leading: const Icon(Icons.notifications),
+            title: const Text('Notifications'),
             onTap: () => print('Notifications tapped'),
           ), ListTile(
-            leading: Icon(Icons.settings),
-            title: Text('Settings'),
+            leading: const Icon(Icons.settings),
+            title: const Text('Settings'),
             onTap: () => print('Settings tapped'),
           )
         ],
