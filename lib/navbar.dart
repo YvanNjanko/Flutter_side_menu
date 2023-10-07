@@ -13,7 +13,7 @@ class NavBar extends StatelessWidget {
             accountName: const Text('Yvan Njanko'),
             accountEmail: const Text('yvannjanko04@gmail.com'),
             currentAccountPicture: CircleAvatar(
-              child: ClipOval(child: Image.asset('images/1.jpeg')),
+              child: ClipOval(child: Image.asset('images/2.jpeg')),
             ),
             decoration: const BoxDecoration(
                 color: Colors.green,
